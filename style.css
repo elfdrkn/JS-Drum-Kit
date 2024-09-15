@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #211817, #8a856c, #394f61); /* Kırmızıdan sarıya ve maviye geçiş */ /* Burada arka plan rengini değiştirin */
+    background: linear-gradient(to right, #211817, #8a856c, #394f61); /* Renk geçişi ayarlandı */
 }
 /* Play Your Dream Song başlığı için stil ve efekt */
 .title {
@@ -16,11 +16,11 @@ body {
 
 /* Renk değişim efekti */
 @keyframes colorChange {
-    0% { color: #ff47d1; }   /* Başlangıç rengi - pembe */
+    0% { color: #ff47d1; }   
     25% { color: #9a40c7; }   
-    50% { color: #9ac7ec; }  /* Ortada rengi - mavi */
-    75% { color: #b4d04e; }  /* Ortada rengi - mavi */
-    100% { color: #8df16b; } /* Bitiş rengi - yeşil */
+    50% { color: #9ac7ec; }  
+    75% { color: #b4d04e; }  
+    100% { color: #8df16b; } 
 }
 
 /* Ana resim stil ayarları */
