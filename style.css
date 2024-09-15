@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #211817, #8a856c, #394f61); /* Kırmızıdan sarıya ve maviye geçiş */ /* Burada arka plan rengini değiştirin */
+}
+/* Play Your Dream Song başlığı için stil ve efekt */
+.title {
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+    margin: 20px 20px;
+    padding: 5px;
+    font-family: 'Arial', sans-serif;
+    animation: colorChange 3s infinite; /* Efekt ekliyoruz */
+}
+
+/* Renk değişim efekti */
+@keyframes colorChange {
+    0% { color: #ff47d1; }   /* Başlangıç rengi - pembe */
+    25% { color: #9a40c7; }   
+    50% { color: #9ac7ec; }  /* Ortada rengi - mavi */
+    75% { color: #b4d04e; }  /* Ortada rengi - mavi */
+    100% { color: #8df16b; } /* Bitiş rengi - yeşil */
+}
+
+/* Ana resim stil ayarları */
+.main-image img {
+    display: block;
+    margin: 0 auto;
+    height:500;
+    width:700;  
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+/* Butonları ortalamak için container ayarları */
+.button-container {
+    display: flex;
+    justify-content: center; /* Yatayda ortala */
+    flex-wrap: wrap; /* Butonlar taşarsa alt satıra geç */
+    gap: 20px; /* Butonlar arası boşluk */
+    margin-top: 50px;
+}
+
+/* Buton stili */
+button {
+    background-color: #64bdda;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Butona tıklandığında farklı renk */
+button:active {
+    background-color: #195079;
+}
+
